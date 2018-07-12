@@ -1,0 +1,35 @@
+If you've previously installed gulp globally, run npm rm --global gulp before following these instructions. For more information, read this Sip.
+
+Check for Node and npm
+
+Make sure that you've installed Node and npm before attempting to install gulp.
+
+node --version
+npm --version
+Install the gulp command
+
+npm install --global gulp-cli
+Create a package.json
+
+If you don't have a package.json, create one. If you need help, run an npm init which will walk you through giving it a name, version, description, etc.
+
+Install gulp in your devDependencies
+
+Run this command in your project directory:
+
+npm install --save-dev gulp
+Create a gulpfile
+
+In your project directory, create a file named gulpfile.js in your project root with these contents:
+
+var gulp = require('gulp');
+
+gulp.task('default', function() {
+  // place code for your default task here
+});
+Test it out
+
+Run the gulp command in your project directory:
+
+gulp
+To run multiple tasks, you can use gulp <task> <othertask>.

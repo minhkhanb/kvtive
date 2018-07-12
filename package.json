@@ -1,0 +1,31 @@
+{
+  "name": "2017-august-canvas",
+  "version": "1.0.0",
+  "description": "If you've previously installed gulp globally, run npm rm --global gulp before following these instructions. For more information, read this Sip.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhkhanb/2017-August-Canvas.git"
+  },
+  "author": "KhaLe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minhkhanb/2017-August-Canvas/issues"
+  },
+  "homepage": "https://github.com/minhkhanb/2017-August-Canvas#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^0.4.6",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.2",
+    "run-sequence": "^2.1.0"
+  }
+}
